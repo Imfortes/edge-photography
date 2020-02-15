@@ -1,0 +1,21 @@
+#header {
+  padding: 1.5rem;
+  text-align: center;
+  background: #333333;
+  color: #ffffff;
+}
+
+#header h2 {
+  border-left: dotted 1px #ffffff;
+  border-right: dotted 1px #ffffff;
+  display: inline-block;
+  padding-right: 1rem;
+  padding-left: 1rem;
+}
+
+.caption {
+  padding: 0.8rem;
+  text-align: center;
+}
+
+/*# sourceMappingURL=images.css.map */

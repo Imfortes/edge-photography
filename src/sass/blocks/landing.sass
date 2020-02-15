@@ -1,0 +1,49 @@
+#landing
+  background: #fff
+  @media screen and (min-width: 500px)
+    display: flex
+    height: 100%
+
+#landing-text
+  display: flex
+  flex: 0 1 40vw
+  height: 50vh
+  justify-content: center
+  align-items: center
+  text-align: center
+  padding-right: 1rem
+  padding-left: 1rem
+  @media screen and (min-width: 500px)
+    height: 100vh
+
+#landing-text h2
+  color: #888
+
+#landing-image
+  background: url("../../images/bg.jpg")
+  background-position: center
+  -webkit-background-size: cover
+  background-size: cover
+  background-repeat: no-repeat
+  height: 50vh
+  flex: 0 1 60vw
+  margin: 0
+  @media screen and (min-width: 500px)
+    height: 100vh
+
+.btn
+  padding: 0.5rem 2rem
+  border: 1px #ccc solid
+  display: inline-block
+  margin: 2rem 0 0
+  -webkit-border-radius: 50px
+  -moz-border-radius: 50px
+  border-radius: 50px
+  text-decoration: none
+  color: #333
+  transition: background 500ms ease
+  @media screen and (min-width: 700px)
+    padding: 1rem 3rem
+
+.btn:hover
+  background: #f4f4f4
